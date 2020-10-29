@@ -1,0 +1,40 @@
+body {
+    background-image: url(/images/rabbi.jpg);
+    background-repeat: no-repeat;
+}
+
+.sap {
+    font-size: 20px;
+    font-family: 'Drugulin CLM', serif;
+}
+
+p {
+    float: inline-end;
+    text-align: center;
+}
+
+img {
+    padding-left: 550px;
+}
+
+.answer {
+    position: relative;
+    right: 550px;
+    top: -200px;
+}
+
+.answer input[type=text] {
+    padding: 50px;
+    border-bottom: 2px solid blue;
+}
+
+.answer label[for=text] {
+    position: relative;
+    top: -70px;
+    left: -90px;
+    color: blue;
+}
+
+input[type=text] {
+    border-radius: 5px;
+}

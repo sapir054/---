@@ -1,0 +1,96 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+* {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Drugulin CLM', serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-row: 100px 500px 400px 50px;
+}
+
+.grid1 {
+    background: #35424a;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-top: 20px;
+    min-height: 70px;
+}
+
+.grid1 img {
+    width: 10%;
+}
+
+.grid1 h1 {
+    color: black;
+    float: left;
+    margin-left: 10%;
+}
+
+.grid1 a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px;
+    float: right;
+}
+
+.grid1 a :hover {
+    color: #5e5a5a;
+    font-weight: bold;
+    border-color: var(--shadow);
+    text-shadow: 2px 2px var(--dark);
+}
+
+.grid2 {
+    background-color: rgb(180, 179, 179);
+}
+
+.grid2 video {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+}
+
+.grid2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 5px;
+    position: relative;
+}
+
+.grid2 #middle {
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: 400px;
+}
+
+.grid3 {
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a
+}
+
+.last-grid {
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: rgb(122, 168, 236);
+}

@@ -1,0 +1,85 @@
+body {
+    background-image: url(/images/דשא.jpg);
+    background-size: cover;
+    direction: rtl;
+    font-family: 'Drugulin CLM', serif;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    text-shadow: 2px 2px black, -1px -1px black;
+    color: white;
+    background-image: url(/images/בראשית.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 20%;
+    border-style: solid;
+    text-shadow: 5px 5px pink;
+    border-radius: 20px;
+}
+
+h1:hover {
+    color: black;
+    font-size: 150px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+span {
+    color: royalblue;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    position: relative;
+    top: -100px;
+}
+
+h2:hover {
+    color: red;
+}
+
+.card a {
+    font-size: 35px;
+    color: blue;
+    text-decoration: none;
+    position: relative;
+    top: -50px;
+}
+
+.card [type="text"] {
+    float: left;
+    margin: 15px 20px;
+}
+
+td {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+nav {
+    direction: rtl;
+    font-size: 100px;
+}
+
+table {
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+    padding-bottom: 250px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}

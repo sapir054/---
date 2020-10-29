@@ -1,0 +1,146 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+* {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Drugulin CLM', serif;
+}
+
+.grid-container {
+    background: url(/images/fixed.png) no-repeat center/cover;
+    background-attachment: fixed;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* .grid-container>div {
+    border: 1px black solid;
+} */
+
+.header {
+    background-size: 100px;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 5px;
+    text-align: right;
+}
+
+.logo img {
+    width: 5%;
+    height: 1%;
+    float: left;
+    margin-left: 38px;
+}
+
+.logo h1 {
+    float: left;
+    margin-left: 50px;
+    text-shadow: 2px 2px var(--dark);
+}
+
+.header .header-navigation-item {
+    background-size: 100px;
+    padding: 0;
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--light);
+    font-size: 25px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .header-navigation-item:hover {
+    border-color: var(--shadow);
+    text-shadow: 2px 2px var(--dark);
+}
+
+.content {
+    flex: 1;
+    overflow: auto;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0px auto;
+    color: white;
+    margin-bottom: 0px;
+    padding: 100px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.section-text-container {
+    width: 40%;
+    font-size: 24px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+.video-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.section-title,
+.section-description,
+.video-title {
+    text-shadow: 2px 2px 5px black;
+}
+
+img,
+video {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 10px;
+}
+
+.social-network-link {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.social-network-link:hover {
+    color: black;
+}
+
+.all-rights-message {
+    display: inline-block;
+    margin-right: 20px;
+}

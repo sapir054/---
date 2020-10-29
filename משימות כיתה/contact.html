@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="http://serve.fontsproject.com/css?family=Drugulin+CLM:700i" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body dir="rtl">
+    <div class="grid1">
+        <ul>
+            <a href="בית.html">דף בית</a>
+            <a href="אודות.html">אודות</a>
+            <a href="contact.html">צור קשר</a>
+            <a href="לתרומות.html">לתרומות</a>
+        </ul>
+        <div class="logo">
+            <img src="/images2/זכות אבות - logo.png">
+        </div>
+        <h1>"עמותת זכות אבות"</h1>
+
+    </div>
+    <!--this is an imagee-->
+    <img src="/images/logo.jpg" alt="logo" title="torra" width="200px" height="200px" style="float:left" />
+
+    <!-- title -->
+    <h1 id="h1">שאל את הרב</h1>
+    <!--contact -->
+    <div id="contact" class="sap">
+
+        <form action="/action_page.php">
+            <label for="fname">שם מלא:</label>
+            <input type="text" id="fname" name="fname"><br/><br/>
+
+            <label for="number">טלפון:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="num" name="num"><br><br>
+
+            <label for="email">דוא"ל:&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="e-mail" name="e-mail"><br/><br/>
+
+            <h2>פרטי השאלה:</h2>
+            <div id="question">
+                <label for="file/image">ספר-פרשה-פרק-פסוק: </label>
+                <input type="text" id="question" name="question"><br/><br/>
+                <label for="files">בחירת קובץ:</label>
+                <input type="file" id="files" name="files" multiple><br><br>
+                <input type="radio" id="one" name="Simplified" value="פשט">
+                <label for="male">פשט</label>
+                <input type="radio" id="tow" name="Hint" value="רמז">
+                <label for="male">רמז</label>
+                <input type="radio" id="three" name="t" value="דרש">
+                <label for="male">דרש</label>
+                <input type="radio" id="four" name="secret" value="סוד">
+                <label for="male">סוד</label><br/><br/>
+                <input type="submit" value="שלח שאלה" />
+                <button type="reset">רענן</button> <br/>
+                <br/>
+                <br/>
+            </div>
+            <div class="answer">
+                <label for="text"> &ensp;תשובת הרב:</label>
+                <input type="text" id="unser" name="uns" size="50px">
+            </div>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <footer>
+            <p> נייד-0505353753&nbsp;| &nbsp;&nbsp; טל'-089426080&nbsp;| &nbsp;&nbsp; פקס-08-3275552&nbsp;|&nbsp;&nbsp;&nbsp;מייל-xphrsd@gmail.com&nbsp;|</p>
+        </footer>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+*{
+box-sizing:border-box;
+margin: 0;
+padding: 0;
+background-color: grey;
+
+}
+
+button, li, a{
+    font-family: 'Varela Round', sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: white;
+text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+    margin: 10px;
+    border: 20px black solid;
+    box-shadow: 0 8px 6px -6px rgb(255, 255, 255);
+    
+}
+.logo{
+    cursor: pointer;
+    width: 100px;
+height: 100px;
+margin-right: auto;
+}
+.nav_links{
+    list-style: none;
+    text-align: right;
+}
+
+.nav_links li{
+display: inline-block;
+padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 5s ease 0s;
+}
+.nav_links li a:hover{
+
+    color: rgb(255, 0, 0);
+}
+
+button{
+padding: 10px 20px;
+background-color: rgb(0, 0, 0);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 2s ease 0s;
+margin-left: 20px;
+margin-right: 20px;
+box-shadow: 2px -2px 10px white,-2px 2px 10px white;
+
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
